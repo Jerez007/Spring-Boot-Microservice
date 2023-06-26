@@ -1,5 +1,6 @@
 package com.jsprogramming.inventoryservice.controller;
 
+import com.jsprogramming.inventoryservice.dto.InventoryResponse;
 import com.jsprogramming.inventoryservice.service.InventoryService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
@@ -18,7 +19,7 @@ public class InventoryController {
     // http://localhost:8082/api/inventory?sku-code=iphone-13&sku-code=iphone13-red
     @GetMapping()
     @ResponseStatus(HttpStatus.OK)
-    public boolean isInStock(@RequestParam List<String> skuCode) {
+    public List<InventoryResponse> isInStock(@RequestParam List<String> skuCode) {
         return inventoryService.isInStock(skuCode);
     }
 }
