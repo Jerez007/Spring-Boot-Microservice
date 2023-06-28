@@ -28,3 +28,11 @@ You can watch the tutorial on Youtube here - https://www.youtube.com/watch?v=mPP
 
 ![img_5.png](img_5.png)
 
+![img_6.png](img_6.png)
+
+We introduce an API Gateway below.
+![img_7.png](img_7.png)
+
+Benefits of API Gateway shown below.
+![img_8.png](img_8.png)
+
