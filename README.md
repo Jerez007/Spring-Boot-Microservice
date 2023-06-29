@@ -36,3 +36,6 @@ We introduce an API Gateway below.
 Benefits of API Gateway shown below.
 ![img_8.png](img_8.png)
 
+Secure Services by adding an Auth Server (KeyCloak)
+![img_9.png](img_9.png)
+
