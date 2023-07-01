@@ -39,3 +39,8 @@ Benefits of API Gateway shown below.
 Secure Services by adding an Auth Server (KeyCloak)
 ![img_9.png](img_9.png)
 
+Introduces Circuit Breaker for resilient communication between services. 
+Open state = Won't allow calls for a certain duration
+Half Open = Goes to this state after being in Open State for a certain duration
+![img_10.png](img_10.png)
+![img_11.png](img_11.png)
