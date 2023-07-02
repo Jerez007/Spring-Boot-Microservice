@@ -44,3 +44,8 @@ Open state = Won't allow calls for a certain duration
 Half Open = Goes to this state after being in Open State for a certain duration
 ![img_10.png](img_10.png)
 ![img_11.png](img_11.png)
+
+Introduces a way to track down issues related to performances using distributed tracing (tracks request from start to finish).
+Uses Spring Cloud Sleuth and Zipkin (UI to visualize this information)
+![img_12.png](img_12.png)
+
