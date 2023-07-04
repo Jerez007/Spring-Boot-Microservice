@@ -49,3 +49,6 @@ Introduces a way to track down issues related to performances using distributed 
 Uses Spring Cloud Sleuth and Zipkin (UI to visualize this information)
 ![img_12.png](img_12.png)
 
+Implement event driven architecture
+![img_13.png](img_13.png)
+
