@@ -52,3 +52,5 @@ Uses Spring Cloud Sleuth and Zipkin (UI to visualize this information)
 Implement event driven architecture
 ![img_13.png](img_13.png)
 
+Dockerize the components
+![img_14.png](img_14.png)
