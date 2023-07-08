@@ -78,14 +78,38 @@
             <plugin>
                 <groupId>com.google.cloud.tools</groupId>
                 <artifactId>jib-maven-plugin</artifactId>
-                <version>3.2.1</version>
+                <version>3.3.2</version>
                 <configuration>
                     <from>
-                        <image>eclipse-temurin:17.0.4.1_1-jre</image>
+                        <image>eclipse-temurin:18.0.2.1_1-jre-jammy</image>
+                        <platforms>
+                            <platform>
+                                <architecture>amd64</architecture>
+                                <os>linux</os>
+                            </platform>
+                            <platform>
+                                <architecture>arm64</architecture>
+                                <os>linux</os>
+                            </platform>
+                        </platforms>
                     </from>
-                    <to><image>registry.hub.docker.com/a2324345/${artifactId}</image></to>
+                    <to>
+                        <image>registry.hub.docker.com/a2324345/${artifactId}</image>
+                        <platforms>
+                            <platform>
+                                <architecture>amd64</architecture>
+                                <os>linux</os>
+                            </platform>
+                            <platform>
+                                <architecture>arm64</architecture>
+                                <os>linux</os>
+                            </platform>
+                        </platforms>
+                    </to>
                 </configuration>
             </plugin>
+
+
 
         </plugins>
     </build>
